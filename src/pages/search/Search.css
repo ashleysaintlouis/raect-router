@@ -1,0 +1,25 @@
+.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CCC;
+    padding: 2rem;
+}
+
+.products li {
+    display: block;
+    min-width: 15rem;
+    min-height: 10rem;
+    border: 1px solid #ebebeb;
+    box-shadow: 5px 3px -2px;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
