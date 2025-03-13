@@ -2,23 +2,28 @@
     "products": [
         {
             "id": "1",
-            "name": "Calça vermelha",
+            "name": "calça vermelha",
             "price": 24.90
         },
         {
             "id": "2",
-            "name": "Camisa social",
+            "name": "camisa social",
             "price": 84.90
         },
         {
             "id": "3",
-            "name": "Tênis Nike",
+            "name": "tênis Nike",
             "price": 599.90
         },
         {
             "id": "4",
             "name": "calça Jean",
             "price": 149.90
+        },
+        {
+            "id": "5",
+            "name": "cadeira",
+            "price": 249.90
         }
     ]
 }

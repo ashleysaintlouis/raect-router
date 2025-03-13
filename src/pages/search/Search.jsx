@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 const Search = () => {
     const [searchParams] = useSearchParams();
     const urlSearch = "http://localhost:3000/products?" + searchParams;
-    console.log(urlSearch)
+    console.log(searchParams);
     
     const {data: items, error} = useFetch(urlSearch)
     console.log(items)
